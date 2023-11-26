@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: rgba(106, 243, 168, 0.719);  
+    height: 100%;
+}
+
+#comeco-site {
+    background-image: linear-gradient( to bottom, #1ec91e60, #0a2405be);
+    padding: 18px;
+}
+
+.comeco-titulo {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.comeco-subtitulo {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+}
+
+nav {
+   padding: 15px 0px 1px 0px;    
+}
+
+.comeco-links-itens {
+   color: white;
+   padding: 8px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+main {
+    width: 850px;
+    background-color: white;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow:  3px 3px 10px rgba(0, 0, 0, 0.637);  
+}
+
+#titulo-principal {
+    font-family: 'idroid';
+    color: rgb(13, 122, 13);
+    padding: 15px 15px 3px 15px ;
+    font-size: 30px;
+}
+
+.paragrafos-principal {
+    padding: 13px;
+    text-indent: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo-principal {
+    background-image: linear-gradient(to right, #b5f0b5d0, #ffffff);
+    margin: 5px;
+    font-family: 'idroid';
+    color: rgb(13, 122, 13);
+    padding: 3px 8px;
+}
+.imagem {
+    max-width: 100%;
+    display: block;
+    margin: auto;  
+}
+
+#principal-video {
+    background-color:  rgb(6, 75, 6);
+    padding: 10px 10px 10px;
+    text-align: center; 
+    
+}
+#subtitulo-principal-extra {
+    background-color: rgba(96, 187, 96, 0.781);
+    margin: 10px 10px 4px;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#caixa-principal-extra {
+    background-color: rgb(194, 226, 191) ;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+.lista-extra {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer {
+    background-color:  rgb(6, 75, 6);
+    text-align: center;
+    padding: 5px;
+    margin: 6px 0px 0px;
+}
